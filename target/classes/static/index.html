@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Inventory Management System</h1>
+    <div class="container">
+
+        <section id="customer-section">
+            <h2>Add Customer</h2>
+            <form id="add-customer-form">
+                <input type="text" id="customer-name" placeholder="Customer Name" required>
+                <button type="submit">Add Customer</button>
+            </form>
+            <h3>Customers</h3>
+            <ul id="customer-list"></ul>
+        </section>
+
+        <section id="inventory-section">
+            <h2>Manage Inventory</h2>
+            <form id="add-inventory-form">
+                <input type="text" id="item-name" placeholder="Item Name" required>
+                <input type="number" id="item-qty" placeholder="Quantity" min="1" required>
+                <button type="submit">Add Item</button>
+            </form>
+            <h3>Inventory Items</h3>
+            <ul id="inventory-list"></ul>
+        </section>
+
+        <section id="order-section">
+            <h2>Place Order</h2>
+            <form id="place-order-form">
+                <label>
+                    Customer:
+                    <select id="order-customer" required></select>
+                </label>
+                <label>
+                    Item:
+                    <select id="order-item" required></select>
+                </label>
+                <label>
+                    Quantity:
+                    <input type="number" id="order-qty" min="1" required>
+                </label>
+                <button type="submit">Place Order</button>
+            </form>
+            <div id="order-result"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

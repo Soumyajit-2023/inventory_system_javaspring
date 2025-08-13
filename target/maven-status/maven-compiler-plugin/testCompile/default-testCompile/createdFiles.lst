@@ -1,0 +1,6 @@
+com/example/inventory/controller/CustomerControllerIntegrationTest.class
+com/example/inventory/service/InventoryServiceTest.class
+com/example/inventory/controller/OrderControllerIntegrationTest.class
+com/example/inventory/service/OrderServiceTest.class
+com/example/inventory/controller/InventoryControllerIntegrationTest.class
+com/example/inventory/service/CustomerServiceTest.class

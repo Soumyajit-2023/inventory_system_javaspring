@@ -1,0 +1,15 @@
+com/example/inventory/InventorySystemApplication.class
+com/example/inventory/entity/InventoryItem.class
+com/example/inventory/controller/OrderController.class
+com/example/inventory/repository/InventoryItemRepository.class
+com/example/inventory/repository/OrderRepository.class
+com/example/inventory/service/InventoryService.class
+com/example/inventory/service/OrderService.class
+com/example/inventory/service/CustomerService.class
+com/example/inventory/entity/Order.class
+com/example/inventory/repository/CustomerRepository.class
+com/example/inventory/entity/Customer.class
+com/example/inventory/controller/InventoryController.class
+com/example/inventory/controller/CustomerController.class
+com/example/inventory/controller/OrderController$PlaceOrderRequest.class
+com/example/inventory/App.class
