@@ -1,0 +1,25 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse/IntelliJ/VSCode
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other
+*.swp
+*.swo
+
+# Optional: Ignore system files/mac hidden files
+._*
